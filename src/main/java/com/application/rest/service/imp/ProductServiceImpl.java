@@ -14,7 +14,7 @@ import java.util.Optional;
 public class ProductServiceImpl implements IProductService {
 
     @Autowired
-    private IProductService productDAO;
+    private IProductDAO productDAO;
 
     @Override
     public List<Product> findAll() {
